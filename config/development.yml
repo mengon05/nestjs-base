@@ -1,0 +1,9 @@
+server:
+  whitelist: ['http://localhost:3000', 'http://localhost:3001']
+db:
+  host: 'localhost'
+  username: 'postgres'
+  password: 'yoursecurepassword'
+  synchronize: true,
+jwt:
+  secret: 'topSecret51'
